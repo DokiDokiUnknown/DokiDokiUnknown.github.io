@@ -53,14 +53,11 @@ document.onkeydown = function (e) {
 
         </script>
 		<script type="text/javascript">
-        var count = 5;
-setInterval(function(){
-    count--;
-    document.getElementById('countDown').innerHTML = count;
-    if (count == 0) {
-        window.location = 'https://www.google.com'; 
-    }
-},1000);
+            setTimeout('Redirect()', 5000);
+            function Redirect() 
+            {  
+                window.location="https://www.google.com"; 
+            }
         </script>
 		<!-- Entête de la page -->
 		<!-- Titre de la page -->
