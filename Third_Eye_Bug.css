@@ -13,7 +13,7 @@ html, body{
     background-color:#000;
 }
 .eye{
-
+    float:right;
 }
 body/*h1,h2, p, ul*/{
     color:#CCC;
