@@ -53,14 +53,14 @@ document.onkeydown = function (e) {
 
         </script>
 		<script type="text/javascript">
-        
-        $(window).load(function () {
-    window.setTimeout(function () {
-        window.location.href = "https://www.google.ch";
-    }, 5000)
-});
-		
-
+        var count = 5;
+setInterval(function(){
+    count--;
+    document.getElementById('countDown').innerHTML = count;
+    if (count == 0) {
+        window.location = 'https://www.google.com'; 
+    }
+},1000);
         </script>
 		<!-- Entête de la page -->
 		<!-- Titre de la page -->
