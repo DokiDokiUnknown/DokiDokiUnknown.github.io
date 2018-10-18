@@ -13,14 +13,7 @@ html, body{
     background-color:#000;
 }
 .eye{
-    float:right;
-    /*margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;*/
-    /* top right bottom left*/
-    margin:20px 20px 0px 20px;
-    /*-width -style -color*/
-    /*border: 5px groove #666;*/
+
 }
 body/*h1,h2, p, ul*/{
     color:#CCC;
